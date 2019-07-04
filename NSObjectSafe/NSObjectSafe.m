@@ -527,8 +527,8 @@ void swizzleInstanceMethod(Class cls, SEL origSelector, SEL newSelector)
         swizzleInstanceMethod(NSClassFromString(@"NSConcreteMutableAttributedString"),
                               @selector(addAttributes:range:), @selector(hookAddAttributes:range:));
         
-        swizzleInstanceMethod(NSClassFromString(@"NSConcreteMutableAttributedString"),
-                              @selector(addAttributes:range:), @selector(hookAddAttributes:range:));
+//        swizzleInstanceMethod(NSClassFromString(@"NSConcreteMutableAttributedString"),
+//                              @selector(addAttributes:range:), @selector(hookAddAttributes:range:));
         
         swizzleInstanceMethod(NSClassFromString(@"NSConcreteMutableAttributedString"),
                               @selector(setAttributes:range:), @selector(hookSetAttributes:range:));
@@ -757,7 +757,7 @@ void swizzleInstanceMethod(Class cls, SEL origSelector, SEL newSelector)
         if (index < self.count) {
             return [self hookObjectAtIndex:index];
         }
-        SFAssert(NO, @"NSArray invalid index:[%@]", @(index));
+//        SFAssert(NO, @"NSArray invalid index:[%@]", @(index));
         return nil;
     }
 }
@@ -766,7 +766,7 @@ void swizzleInstanceMethod(Class cls, SEL origSelector, SEL newSelector)
         if (index < self.count) {
             return [self hookObjectAtIndexedSubscript:index];
         }
-        SFAssert(NO, @"NSArray invalid index:[%@]", @(index));
+//        SFAssert(NO, @"NSArray invalid index:[%@]", @(index));
         return nil;
     }
 }
@@ -919,7 +919,7 @@ void swizzleInstanceMethod(Class cls, SEL origSelector, SEL newSelector)
 
 @end
 
-#pragma mark - NSDictionary
+#pragma mark - NSData
 @implementation NSData (Safe)
 + (void)load
 {

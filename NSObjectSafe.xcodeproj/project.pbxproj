@@ -11,6 +11,22 @@
 		557A51D81C323CD300D5B6B6 /* NSObjectSafeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 557A51D71C323CD300D5B6B6 /* NSObjectSafeTests.m */; };
 		557A51E51C323D6500D5B6B6 /* NSObjectSafe.m in Sources */ = {isa = PBXBuildFile; fileRef = 557A51E31C323D6500D5B6B6 /* NSObjectSafe.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		557A51E71C323D9D00D5B6B6 /* NSObjectSafe.h in Headers */ = {isa = PBXBuildFile; fileRef = 557A51E61C323D9D00D5B6B6 /* NSObjectSafe.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F19BC37222CDA80600FEDCE4 /* NSArraySafeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC37122CDA80600FEDCE4 /* NSArraySafeTest.m */; };
+		F19BC37422CDAD7000FEDCE4 /* NSMutableArrayTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC37322CDAD7000FEDCE4 /* NSMutableArrayTest.m */; };
+		F19BC37622CDB23200FEDCE4 /* NSOrderedSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC37522CDB23200FEDCE4 /* NSOrderedSetTest.m */; };
+		F19BC37822CDB27800FEDCE4 /* NSMutableOrderedSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC37722CDB27800FEDCE4 /* NSMutableOrderedSetTest.m */; };
+		F19BC37A22CDB30700FEDCE4 /* NSUserDefaultsTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC37922CDB30700FEDCE4 /* NSUserDefaultsTest.m */; };
+		F19BC37C22CDB33D00FEDCE4 /* NSCacheTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC37B22CDB33D00FEDCE4 /* NSCacheTest.m */; };
+		F19BC37E22CDB3DD00FEDCE4 /* NSSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC37D22CDB3DD00FEDCE4 /* NSSetTest.m */; };
+		F19BC38022CDB40F00FEDCE4 /* NSMutableDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC37F22CDB40F00FEDCE4 /* NSMutableDictionaryTest.m */; };
+		F19BC38222CDB44F00FEDCE4 /* NSDictionaryTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC38122CDB44F00FEDCE4 /* NSDictionaryTest.m */; };
+		F19BC38422CDB49400FEDCE4 /* NSMutableDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC38322CDB49400FEDCE4 /* NSMutableDataTest.m */; };
+		F19BC38622CDB4E600FEDCE4 /* NSDataTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC38522CDB4E600FEDCE4 /* NSDataTest.m */; };
+		F19BC38822CDB5B100FEDCE4 /* NSMutableAttributedStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC38722CDB5B100FEDCE4 /* NSMutableAttributedStringTest.m */; };
+		F19BC38A22CDB70100FEDCE4 /* NSAttributedStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC38922CDB70100FEDCE4 /* NSAttributedStringTest.m */; };
+		F19BC38C22CDB76200FEDCE4 /* NSMutableStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC38B22CDB76200FEDCE4 /* NSMutableStringTest.m */; };
+		F19BC38E22CDB7FD00FEDCE4 /* NSStringTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC38D22CDB7FD00FEDCE4 /* NSStringTest.m */; };
+		F19BC39022CDB8C100FEDCE4 /* NSObjectTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F19BC38F22CDB8C100FEDCE4 /* NSObjectTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +47,22 @@
 		557A51D91C323CD300D5B6B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		557A51E31C323D6500D5B6B6 /* NSObjectSafe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObjectSafe.m; sourceTree = "<group>"; };
 		557A51E61C323D9D00D5B6B6 /* NSObjectSafe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSObjectSafe.h; sourceTree = "<group>"; };
+		F19BC37122CDA80600FEDCE4 /* NSArraySafeTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSArraySafeTest.m; sourceTree = "<group>"; };
+		F19BC37322CDAD7000FEDCE4 /* NSMutableArrayTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableArrayTest.m; sourceTree = "<group>"; };
+		F19BC37522CDB23200FEDCE4 /* NSOrderedSetTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSOrderedSetTest.m; sourceTree = "<group>"; };
+		F19BC37722CDB27800FEDCE4 /* NSMutableOrderedSetTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableOrderedSetTest.m; sourceTree = "<group>"; };
+		F19BC37922CDB30700FEDCE4 /* NSUserDefaultsTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaultsTest.m; sourceTree = "<group>"; };
+		F19BC37B22CDB33D00FEDCE4 /* NSCacheTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCacheTest.m; sourceTree = "<group>"; };
+		F19BC37D22CDB3DD00FEDCE4 /* NSSetTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSSetTest.m; sourceTree = "<group>"; };
+		F19BC37F22CDB40F00FEDCE4 /* NSMutableDictionaryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableDictionaryTest.m; sourceTree = "<group>"; };
+		F19BC38122CDB44F00FEDCE4 /* NSDictionaryTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryTest.m; sourceTree = "<group>"; };
+		F19BC38322CDB49400FEDCE4 /* NSMutableDataTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableDataTest.m; sourceTree = "<group>"; };
+		F19BC38522CDB4E600FEDCE4 /* NSDataTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDataTest.m; sourceTree = "<group>"; };
+		F19BC38722CDB5B100FEDCE4 /* NSMutableAttributedStringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableAttributedStringTest.m; sourceTree = "<group>"; };
+		F19BC38922CDB70100FEDCE4 /* NSAttributedStringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSAttributedStringTest.m; sourceTree = "<group>"; };
+		F19BC38B22CDB76200FEDCE4 /* NSMutableStringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSMutableStringTest.m; sourceTree = "<group>"; };
+		F19BC38D22CDB7FD00FEDCE4 /* NSStringTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSStringTest.m; sourceTree = "<group>"; };
+		F19BC38F22CDB8C100FEDCE4 /* NSObjectTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSObjectTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +115,24 @@
 		557A51D61C323CD300D5B6B6 /* NSObjectSafeTests */ = {
 			isa = PBXGroup;
 			children = (
-				557A51D71C323CD300D5B6B6 /* NSObjectSafeTests.m */,
 				557A51D91C323CD300D5B6B6 /* Info.plist */,
+				F19BC37122CDA80600FEDCE4 /* NSArraySafeTest.m */,
+				F19BC38922CDB70100FEDCE4 /* NSAttributedStringTest.m */,
+				F19BC37B22CDB33D00FEDCE4 /* NSCacheTest.m */,
+				F19BC38522CDB4E600FEDCE4 /* NSDataTest.m */,
+				F19BC38122CDB44F00FEDCE4 /* NSDictionaryTest.m */,
+				F19BC37322CDAD7000FEDCE4 /* NSMutableArrayTest.m */,
+				F19BC38722CDB5B100FEDCE4 /* NSMutableAttributedStringTest.m */,
+				F19BC38322CDB49400FEDCE4 /* NSMutableDataTest.m */,
+				F19BC37F22CDB40F00FEDCE4 /* NSMutableDictionaryTest.m */,
+				F19BC37722CDB27800FEDCE4 /* NSMutableOrderedSetTest.m */,
+				F19BC38B22CDB76200FEDCE4 /* NSMutableStringTest.m */,
+				557A51D71C323CD300D5B6B6 /* NSObjectSafeTests.m */,
+				F19BC38F22CDB8C100FEDCE4 /* NSObjectTest.m */,
+				F19BC37522CDB23200FEDCE4 /* NSOrderedSetTest.m */,
+				F19BC37D22CDB3DD00FEDCE4 /* NSSetTest.m */,
+				F19BC38D22CDB7FD00FEDCE4 /* NSStringTest.m */,
+				F19BC37922CDB30700FEDCE4 /* NSUserDefaultsTest.m */,
 			);
 			path = NSObjectSafeTests;
 			sourceTree = "<group>";
@@ -145,7 +193,7 @@
 		557A51BF1C323CD200D5B6B6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = tencent;
 				TargetAttributes = {
 					557A51C71C323CD200D5B6B6 = {
@@ -158,10 +206,11 @@
 			};
 			buildConfigurationList = 557A51C21C323CD200D5B6B6 /* Build configuration list for PBXProject "NSObjectSafe" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = 557A51BE1C323CD200D5B6B6;
 			productRefGroup = 557A51C91C323CD200D5B6B6 /* Products */;
@@ -204,7 +253,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F19BC37822CDB27800FEDCE4 /* NSMutableOrderedSetTest.m in Sources */,
+				F19BC38E22CDB7FD00FEDCE4 /* NSStringTest.m in Sources */,
+				F19BC38A22CDB70100FEDCE4 /* NSAttributedStringTest.m in Sources */,
+				F19BC39022CDB8C100FEDCE4 /* NSObjectTest.m in Sources */,
+				F19BC37A22CDB30700FEDCE4 /* NSUserDefaultsTest.m in Sources */,
+				F19BC37C22CDB33D00FEDCE4 /* NSCacheTest.m in Sources */,
+				F19BC37E22CDB3DD00FEDCE4 /* NSSetTest.m in Sources */,
 				557A51D81C323CD300D5B6B6 /* NSObjectSafeTests.m in Sources */,
+				F19BC37422CDAD7000FEDCE4 /* NSMutableArrayTest.m in Sources */,
+				F19BC38622CDB4E600FEDCE4 /* NSDataTest.m in Sources */,
+				F19BC38822CDB5B100FEDCE4 /* NSMutableAttributedStringTest.m in Sources */,
+				F19BC38022CDB40F00FEDCE4 /* NSMutableDictionaryTest.m in Sources */,
+				F19BC37222CDA80600FEDCE4 /* NSArraySafeTest.m in Sources */,
+				F19BC38422CDB49400FEDCE4 /* NSMutableDataTest.m in Sources */,
+				F19BC38C22CDB76200FEDCE4 /* NSMutableStringTest.m in Sources */,
+				F19BC38222CDB44F00FEDCE4 /* NSDictionaryTest.m in Sources */,
+				F19BC37622CDB23200FEDCE4 /* NSOrderedSetTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,17 +288,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -270,17 +346,28 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -310,6 +397,7 @@
 		557A51DD1C323CD300D5B6B6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -327,6 +415,7 @@
 		557A51DE1C323CD300D5B6B6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
